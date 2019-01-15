@@ -1,0 +1,910 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0968BD32F0E6A244CCE03C272C6BDA15 /* KLGMethodSwizzleTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BA7E10FE42811D376FDAF9DD54772D9 /* KLGMethodSwizzleTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09C2125BEEC159C3F45160FD397AB8C2 /* UITableViewCell+KLG.m in Sources */ = {isa = PBXBuildFile; fileRef = B216E5C3F6ACC3FAA1C61513DFEFEF93 /* UITableViewCell+KLG.m */; };
+		17735239D70B550107AD585A149D5DF9 /* KLGTableViewItemProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B6C430D69D10318B3F0246845496074E /* KLGTableViewItemProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19ADB33CA0373D396ED95ECD9B09052F /* KLGTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 293292159569EE98494C398A624D433F /* KLGTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BAEF90D6DCD54AE434524433D872653 /* Pods-Kilig_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6747E99BCAB7D19E84A7971E0FA0FC02 /* Pods-Kilig_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F3D4AE2F1B3A6D99D1D44378F61A1A5 /* KLGTableViewCellItem+Chaining.m in Sources */ = {isa = PBXBuildFile; fileRef = 725DE1D096D0A0FC8C3261182705DE30 /* KLGTableViewCellItem+Chaining.m */; };
+		23FC5DEEC9134CABFDE9F6549C8BF3BB /* KLGTableViewSectionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E189D8769589D728332B2EC6F25128 /* KLGTableViewSectionItem.m */; };
+		27804B99A61F6A8621A065358DFE1E73 /* KLGTableViewAction.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B8E18CDBF9053E418E328950EA024E /* KLGTableViewAction.m */; };
+		29DA0B54F45D01A3E0A82B5757676101 /* Kilig.h in Headers */ = {isa = PBXBuildFile; fileRef = 218AE6EF4537E179169EF8CFA05AF594 /* Kilig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A6BE5F6885E56654452528EE598C55E /* KLGTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = AE7EC99AC3D6C92B0D8670B9F30DE36C /* KLGTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BCEAE88C2CD33DB83996E9F47B830A8 /* KLGMethodSwizzleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7A33C087CA742A9B8ACFD40CD18443 /* KLGMethodSwizzleTool.m */; };
+		3A50304353FFB7113E20C63E6A63E851 /* KLGTableViewHeaderFooterViewItem+Chaining.m in Sources */ = {isa = PBXBuildFile; fileRef = A13205ADCAB7C4E0B89E8BD310594775 /* KLGTableViewHeaderFooterViewItem+Chaining.m */; };
+		405E159D19C5CED95541533834F9F1DA /* Kilig-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF02C8EF63D752ABA15F260C0ADAFF6C /* Kilig-dummy.m */; };
+		59A690C1FBD53EE964E1156220662089 /* KLGTableViewCellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 285B2F31E37B29C0E4F62D858E14C340 /* KLGTableViewCellItem.m */; };
+		5CB86C732561BE986B033D0EADB4BA01 /* KLGTableViewHeaderFooterViewItem.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2B675D7B83645E4155D13395119E7F /* KLGTableViewHeaderFooterViewItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71B1563E45A443C8D9315A2CE7298B4F /* KLGTableViewHeaderFooterViewItem+Chaining.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E6FE8C87533BDA8AB0404C12E844D37 /* KLGTableViewHeaderFooterViewItem+Chaining.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		757787F6881A091BDF6CFD4A8749A264 /* UITableViewCell+KLG.h in Headers */ = {isa = PBXBuildFile; fileRef = F6977B90C0A55986160BF56C960D8347 /* UITableViewCell+KLG.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87D5F5DD0254FC1B0B01EFB7A5C744F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		8AAE498FFBA47ED01BEB4273190323CB /* KLGTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D9775CA91A01DD8E3503A25FC65A7B /* KLGTableViewModel.m */; };
+		8D57B7D202645CE65C9BAC3E0852C230 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		8E2D5FFCA446E6CBEF285F3C29D1ACD5 /* KLGTableViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E15EC3AF8DBC5B8A2AB1D88F237B52D1 /* KLGTableViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93FB254EEEBCAC08BD3C17856F25050E /* UITableView+KLG.h in Headers */ = {isa = PBXBuildFile; fileRef = BB03E1631FD3A96EDC85C6A9ECC2655B /* UITableView+KLG.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98FFDEEAC7C5348A958D0822B0E82EE3 /* Pods-Kilig_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F08722991A9075E3E5812A79395299 /* Pods-Kilig_Tests-dummy.m */; };
+		A5B27A15B084B8660207827D2D56EF3A /* KLGChaining.h in Headers */ = {isa = PBXBuildFile; fileRef = BF543DBE36BAD6AEA5D540AC4E8FD037 /* KLGChaining.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7616E9D427ED01EB16FD2906A2F090E /* UITableView+KLG.m in Sources */ = {isa = PBXBuildFile; fileRef = D094348CAEC2F1C410EB4B3A958AA0D2 /* UITableView+KLG.m */; };
+		C08AD448D1E238D5C36B2ADBBE8987F7 /* Kilig-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0BDFBF05E90A0AF515DEAAADADC9100 /* Kilig-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C09C6E643C6C9682574152C78C679414 /* UITableViewHeaderFooterView+KLG.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EA36B5F461DD60982EB05CF0122C68A /* UITableViewHeaderFooterView+KLG.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6062310CB7ECE0B1F8E1E4D06E5D12E /* KLGTableViewCellItem+Chaining.h in Headers */ = {isa = PBXBuildFile; fileRef = DC2C7BEC1AD366F5C438BCA137D68C19 /* KLGTableViewCellItem+Chaining.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA295FBC17E34DE6676E81AD09DF8E77 /* NSArray+KLG.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BF902FAB267163FAADFE487669BB76E /* NSArray+KLG.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0CE8A13190A073E4E12F9714B6DD4F7 /* KLGTableViewSectionItem.h in Headers */ = {isa = PBXBuildFile; fileRef = EC55481AE5E53DEE268B6DFA301AF80F /* KLGTableViewSectionItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2C1070B1DD76A468E07007A105F08D3 /* Pods-Kilig_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 448B5A318BB417B033716A4CF849DF1A /* Pods-Kilig_Example-dummy.m */; };
+		D38990CD951A1A524EB860F7D79A076C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		D625768585965C03D52A493B6CD7047E /* KLGTableViewAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D391940088DC19DAF2B662A0F06CD7B /* KLGTableViewAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0253DE9B005F4E6F0C4C55B973D7052 /* UITableViewHeaderFooterView+KLG.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0C566307B8D29E2A8900585EC2A888 /* UITableViewHeaderFooterView+KLG.m */; };
+		E08D5C55D7F56C6AB72546D11920E6D8 /* Pods-Kilig_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C64C01BFA3C1DEBD14CF6965E3BF8BC /* Pods-Kilig_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECCEE0101E545FE53FF5ACFAD6A796E6 /* KLGTableViewCellItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DBCFA2D573F3EE4D33976073044B1D2 /* KLGTableViewCellItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEE52F51A9121D18BC2657C443E1B2A8 /* NSArray+KLG.m in Sources */ = {isa = PBXBuildFile; fileRef = BD265738F95F18DA02157BF9378E98C7 /* NSArray+KLG.m */; };
+		F665CA35449759FAAFF2D7ACC5D964BF /* KLGTableViewHeaderFooterViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9AAFB80E559E4A057194036078DAEB /* KLGTableViewHeaderFooterViewItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		287F9AFED5F6EED0136EF543CD952BD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5D5CC469E28EABCAB074CA2256573EB;
+			remoteInfo = Kilig;
+		};
+		F733A96AAA0758968C9633C893A25646 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E01C015A4EC5FE551B0AC172CC501253;
+			remoteInfo = "Pods-Kilig_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0757D7145701E39CEAB18AD4A0FFFDE1 /* Kilig.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kilig.xcconfig; sourceTree = "<group>"; };
+		0A9AAFB80E559E4A057194036078DAEB /* KLGTableViewHeaderFooterViewItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KLGTableViewHeaderFooterViewItem.m; path = Kilig/Classes/TableView/KLGTableViewHeaderFooterViewItem.m; sourceTree = "<group>"; };
+		0BF902FAB267163FAADFE487669BB76E /* NSArray+KLG.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+KLG.h"; path = "Kilig/Classes/Tools/NSArray+KLG.h"; sourceTree = "<group>"; };
+		10622192D198C4D31B254234A98E918D /* Pods-Kilig_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Kilig_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		148671B266D0F202E530E7B87D6AD759 /* Pods_Kilig_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Kilig_Tests.framework; path = "Pods-Kilig_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		218AE6EF4537E179169EF8CFA05AF594 /* Kilig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Kilig.h; path = Kilig/Classes/Kilig.h; sourceTree = "<group>"; };
+		285B2F31E37B29C0E4F62D858E14C340 /* KLGTableViewCellItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KLGTableViewCellItem.m; path = Kilig/Classes/TableView/KLGTableViewCellItem.m; sourceTree = "<group>"; };
+		293292159569EE98494C398A624D433F /* KLGTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KLGTools.h; path = Kilig/Classes/Tools/KLGTools.h; sourceTree = "<group>"; };
+		2F3D77CF2CA2DA0BA431EF37F7D6A063 /* Pods-Kilig_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kilig_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		304C5422D74C5FA7276C531E66E5BCE1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		32F08722991A9075E3E5812A79395299 /* Pods-Kilig_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Kilig_Tests-dummy.m"; sourceTree = "<group>"; };
+		3BD214A2FEF986C4A1F87BFAF887CC38 /* Pods-Kilig_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Kilig_Example.modulemap"; sourceTree = "<group>"; };
+		3D7A33C087CA742A9B8ACFD40CD18443 /* KLGMethodSwizzleTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KLGMethodSwizzleTool.m; path = Kilig/Classes/Tools/KLGMethodSwizzleTool.m; sourceTree = "<group>"; };
+		3E6FE8C87533BDA8AB0404C12E844D37 /* KLGTableViewHeaderFooterViewItem+Chaining.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "KLGTableViewHeaderFooterViewItem+Chaining.h"; path = "Kilig/Classes/Chaining/KLGTableViewHeaderFooterViewItem+Chaining.h"; sourceTree = "<group>"; };
+		448B5A318BB417B033716A4CF849DF1A /* Pods-Kilig_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Kilig_Example-dummy.m"; sourceTree = "<group>"; };
+		4DBCFA2D573F3EE4D33976073044B1D2 /* KLGTableViewCellItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KLGTableViewCellItem.h; path = Kilig/Classes/TableView/KLGTableViewCellItem.h; sourceTree = "<group>"; };
+		51D9775CA91A01DD8E3503A25FC65A7B /* KLGTableViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KLGTableViewModel.m; path = Kilig/Classes/TableView/KLGTableViewModel.m; sourceTree = "<group>"; };
+		54A1D5059E641192A80AEAFE85D5C1E3 /* Pods-Kilig_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Kilig_Tests-resources.sh"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		62E189D8769589D728332B2EC6F25128 /* KLGTableViewSectionItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KLGTableViewSectionItem.m; path = Kilig/Classes/TableView/KLGTableViewSectionItem.m; sourceTree = "<group>"; };
+		6747E99BCAB7D19E84A7971E0FA0FC02 /* Pods-Kilig_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Kilig_Tests-umbrella.h"; sourceTree = "<group>"; };
+		678F3DFED3023967C31970690E195FD4 /* Pods-Kilig_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Kilig_Tests.modulemap"; sourceTree = "<group>"; };
+		6BB1A377BF04076C21934354F0FC43BD /* Kilig.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Kilig.modulemap; sourceTree = "<group>"; };
+		721CCF9C795E01111739B209C6F523EF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		725DE1D096D0A0FC8C3261182705DE30 /* KLGTableViewCellItem+Chaining.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "KLGTableViewCellItem+Chaining.m"; path = "Kilig/Classes/Chaining/KLGTableViewCellItem+Chaining.m"; sourceTree = "<group>"; };
+		7353C5EBA41CECA3988188FCB6567EE2 /* Kilig-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kilig-prefix.pch"; sourceTree = "<group>"; };
+		776D7530A245C3FDCF805B119FA57240 /* Kilig.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kilig.framework; path = Kilig.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EA36B5F461DD60982EB05CF0122C68A /* UITableViewHeaderFooterView+KLG.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableViewHeaderFooterView+KLG.h"; path = "Kilig/Classes/TableView/UITableViewHeaderFooterView+KLG.h"; sourceTree = "<group>"; };
+		8AA669C03F2744D4C84816F66E311FB3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B06E13D95111B93A45D754E8EEE3192 /* Pods-Kilig_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Kilig_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		8BA7E10FE42811D376FDAF9DD54772D9 /* KLGMethodSwizzleTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KLGMethodSwizzleTool.h; path = Kilig/Classes/Tools/KLGMethodSwizzleTool.h; sourceTree = "<group>"; };
+		8D391940088DC19DAF2B662A0F06CD7B /* KLGTableViewAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KLGTableViewAction.h; path = Kilig/Classes/TableView/KLGTableViewAction.h; sourceTree = "<group>"; };
+		8E489B13B47CD0B4C27DF89DE023695B /* Pods-Kilig_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Kilig_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		91A4AD260E5720D4CD3C246152C7E9ED /* Pods-Kilig_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kilig_Example.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C64C01BFA3C1DEBD14CF6965E3BF8BC /* Pods-Kilig_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Kilig_Example-umbrella.h"; sourceTree = "<group>"; };
+		A13205ADCAB7C4E0B89E8BD310594775 /* KLGTableViewHeaderFooterViewItem+Chaining.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "KLGTableViewHeaderFooterViewItem+Chaining.m"; path = "Kilig/Classes/Chaining/KLGTableViewHeaderFooterViewItem+Chaining.m"; sourceTree = "<group>"; };
+		AE7EC99AC3D6C92B0D8670B9F30DE36C /* KLGTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KLGTableView.h; path = Kilig/Classes/TableView/KLGTableView.h; sourceTree = "<group>"; };
+		B216E5C3F6ACC3FAA1C61513DFEFEF93 /* UITableViewCell+KLG.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableViewCell+KLG.m"; path = "Kilig/Classes/TableView/UITableViewCell+KLG.m"; sourceTree = "<group>"; };
+		B6A2F53FBBFD815AB664F1531D88CB39 /* Pods-Kilig_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Kilig_Example-resources.sh"; sourceTree = "<group>"; };
+		B6C430D69D10318B3F0246845496074E /* KLGTableViewItemProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KLGTableViewItemProtocol.h; path = Kilig/Classes/TableView/KLGTableViewItemProtocol.h; sourceTree = "<group>"; };
+		B9EE05BE566F7D86B7C0B66BED58BFC9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB03E1631FD3A96EDC85C6A9ECC2655B /* UITableView+KLG.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+KLG.h"; path = "Kilig/Classes/TableView/UITableView+KLG.h"; sourceTree = "<group>"; };
+		BD265738F95F18DA02157BF9378E98C7 /* NSArray+KLG.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+KLG.m"; path = "Kilig/Classes/Tools/NSArray+KLG.m"; sourceTree = "<group>"; };
+		BF543DBE36BAD6AEA5D540AC4E8FD037 /* KLGChaining.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KLGChaining.h; path = Kilig/Classes/Chaining/KLGChaining.h; sourceTree = "<group>"; };
+		C4136B5F97D2FDE1BA53A2211DED7C4A /* Kilig.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Kilig.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D094348CAEC2F1C410EB4B3A958AA0D2 /* UITableView+KLG.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+KLG.m"; path = "Kilig/Classes/TableView/UITableView+KLG.m"; sourceTree = "<group>"; };
+		D3FBF34BA510C947EED13D3427C14E4E /* Pods_Kilig_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Kilig_Example.framework; path = "Pods-Kilig_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC2C7BEC1AD366F5C438BCA137D68C19 /* KLGTableViewCellItem+Chaining.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "KLGTableViewCellItem+Chaining.h"; path = "Kilig/Classes/Chaining/KLGTableViewCellItem+Chaining.h"; sourceTree = "<group>"; };
+		E15EC3AF8DBC5B8A2AB1D88F237B52D1 /* KLGTableViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KLGTableViewModel.h; path = Kilig/Classes/TableView/KLGTableViewModel.h; sourceTree = "<group>"; };
+		E3B8E18CDBF9053E418E328950EA024E /* KLGTableViewAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KLGTableViewAction.m; path = Kilig/Classes/TableView/KLGTableViewAction.m; sourceTree = "<group>"; };
+		E7B2F56AF01A618DD1568D0AD8E772D0 /* Pods-Kilig_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Kilig_Example-frameworks.sh"; sourceTree = "<group>"; };
+		EC55481AE5E53DEE268B6DFA301AF80F /* KLGTableViewSectionItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KLGTableViewSectionItem.h; path = Kilig/Classes/TableView/KLGTableViewSectionItem.h; sourceTree = "<group>"; };
+		ECCC98E6ECFA35045F08A149C6181A8C /* Pods-Kilig_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kilig_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED2B675D7B83645E4155D13395119E7F /* KLGTableViewHeaderFooterViewItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KLGTableViewHeaderFooterViewItem.h; path = Kilig/Classes/TableView/KLGTableViewHeaderFooterViewItem.h; sourceTree = "<group>"; };
+		EE966C49B61E47B8D5D36FD3BCF7129D /* Pods-Kilig_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kilig_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F0BDFBF05E90A0AF515DEAAADADC9100 /* Kilig-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kilig-umbrella.h"; sourceTree = "<group>"; };
+		F19BE2647AD68B836CE098BE2141D8D1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F32F2D2D343CE37F9F01F53DEA81F48D /* Pods-Kilig_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Kilig_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F6977B90C0A55986160BF56C960D8347 /* UITableViewCell+KLG.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableViewCell+KLG.h"; path = "Kilig/Classes/TableView/UITableViewCell+KLG.h"; sourceTree = "<group>"; };
+		F858E41298082814CE165BFB6E5CCFAB /* Pods-Kilig_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Kilig_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FC0C566307B8D29E2A8900585EC2A888 /* UITableViewHeaderFooterView+KLG.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableViewHeaderFooterView+KLG.m"; path = "Kilig/Classes/TableView/UITableViewHeaderFooterView+KLG.m"; sourceTree = "<group>"; };
+		FF02C8EF63D752ABA15F260C0ADAFF6C /* Kilig-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kilig-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45A987444066332E6B9612339457D1E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D38990CD951A1A524EB860F7D79A076C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840A75BAC799C3627711C7DE8B97B3A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87D5F5DD0254FC1B0B01EFB7A5C744F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07507F87217B3A1F5D26D9D964D19C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D57B7D202645CE65C9BAC3E0852C230 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		231BCCC04820C6FEB34CE6DB82A130BC /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				AE7EC99AC3D6C92B0D8670B9F30DE36C /* KLGTableView.h */,
+				8D391940088DC19DAF2B662A0F06CD7B /* KLGTableViewAction.h */,
+				E3B8E18CDBF9053E418E328950EA024E /* KLGTableViewAction.m */,
+				4DBCFA2D573F3EE4D33976073044B1D2 /* KLGTableViewCellItem.h */,
+				285B2F31E37B29C0E4F62D858E14C340 /* KLGTableViewCellItem.m */,
+				ED2B675D7B83645E4155D13395119E7F /* KLGTableViewHeaderFooterViewItem.h */,
+				0A9AAFB80E559E4A057194036078DAEB /* KLGTableViewHeaderFooterViewItem.m */,
+				B6C430D69D10318B3F0246845496074E /* KLGTableViewItemProtocol.h */,
+				E15EC3AF8DBC5B8A2AB1D88F237B52D1 /* KLGTableViewModel.h */,
+				51D9775CA91A01DD8E3503A25FC65A7B /* KLGTableViewModel.m */,
+				EC55481AE5E53DEE268B6DFA301AF80F /* KLGTableViewSectionItem.h */,
+				62E189D8769589D728332B2EC6F25128 /* KLGTableViewSectionItem.m */,
+				BB03E1631FD3A96EDC85C6A9ECC2655B /* UITableView+KLG.h */,
+				D094348CAEC2F1C410EB4B3A958AA0D2 /* UITableView+KLG.m */,
+				F6977B90C0A55986160BF56C960D8347 /* UITableViewCell+KLG.h */,
+				B216E5C3F6ACC3FAA1C61513DFEFEF93 /* UITableViewCell+KLG.m */,
+				7EA36B5F461DD60982EB05CF0122C68A /* UITableViewHeaderFooterView+KLG.h */,
+				FC0C566307B8D29E2A8900585EC2A888 /* UITableViewHeaderFooterView+KLG.m */,
+			);
+			name = TableView;
+			sourceTree = "<group>";
+		};
+		353BC9440E8936D2C7232CA573C5A2A3 /* Pods-Kilig_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F19BE2647AD68B836CE098BE2141D8D1 /* Info.plist */,
+				3BD214A2FEF986C4A1F87BFAF887CC38 /* Pods-Kilig_Example.modulemap */,
+				F858E41298082814CE165BFB6E5CCFAB /* Pods-Kilig_Example-acknowledgements.markdown */,
+				10622192D198C4D31B254234A98E918D /* Pods-Kilig_Example-acknowledgements.plist */,
+				448B5A318BB417B033716A4CF849DF1A /* Pods-Kilig_Example-dummy.m */,
+				E7B2F56AF01A618DD1568D0AD8E772D0 /* Pods-Kilig_Example-frameworks.sh */,
+				B6A2F53FBBFD815AB664F1531D88CB39 /* Pods-Kilig_Example-resources.sh */,
+				9C64C01BFA3C1DEBD14CF6965E3BF8BC /* Pods-Kilig_Example-umbrella.h */,
+				EE966C49B61E47B8D5D36FD3BCF7129D /* Pods-Kilig_Example.debug.xcconfig */,
+				91A4AD260E5720D4CD3C246152C7E9ED /* Pods-Kilig_Example.release.xcconfig */,
+			);
+			name = "Pods-Kilig_Example";
+			path = "Target Support Files/Pods-Kilig_Example";
+			sourceTree = "<group>";
+		};
+		4733B71187CCEB94928844095E83C1CD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				353BC9440E8936D2C7232CA573C5A2A3 /* Pods-Kilig_Example */,
+				95AE26183B3D32FD777D47603EBEE619 /* Pods-Kilig_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		54179344A70F0601B7590B4E5D623927 /* Chaining */ = {
+			isa = PBXGroup;
+			children = (
+				BF543DBE36BAD6AEA5D540AC4E8FD037 /* KLGChaining.h */,
+				DC2C7BEC1AD366F5C438BCA137D68C19 /* KLGTableViewCellItem+Chaining.h */,
+				725DE1D096D0A0FC8C3261182705DE30 /* KLGTableViewCellItem+Chaining.m */,
+				3E6FE8C87533BDA8AB0404C12E844D37 /* KLGTableViewHeaderFooterViewItem+Chaining.h */,
+				A13205ADCAB7C4E0B89E8BD310594775 /* KLGTableViewHeaderFooterViewItem+Chaining.m */,
+			);
+			name = Chaining;
+			sourceTree = "<group>";
+		};
+		54964F11E57D31692C20DE5C88B06CC0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9EE05BE566F7D86B7C0B66BED58BFC9 /* Info.plist */,
+				6BB1A377BF04076C21934354F0FC43BD /* Kilig.modulemap */,
+				0757D7145701E39CEAB18AD4A0FFFDE1 /* Kilig.xcconfig */,
+				FF02C8EF63D752ABA15F260C0ADAFF6C /* Kilig-dummy.m */,
+				7353C5EBA41CECA3988188FCB6567EE2 /* Kilig-prefix.pch */,
+				F0BDFBF05E90A0AF515DEAAADADC9100 /* Kilig-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Kilig";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		61923AE2262E13025A46B4E5192A81B2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA3E0419CEBF413EE54169C0C6BA7C88 /* Kilig */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6730F562A088CE397E01C5BCDA0973E8 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				8BA7E10FE42811D376FDAF9DD54772D9 /* KLGMethodSwizzleTool.h */,
+				3D7A33C087CA742A9B8ACFD40CD18443 /* KLGMethodSwizzleTool.m */,
+				293292159569EE98494C398A624D433F /* KLGTools.h */,
+				0BF902FAB267163FAADFE487669BB76E /* NSArray+KLG.h */,
+				BD265738F95F18DA02157BF9378E98C7 /* NSArray+KLG.m */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				61923AE2262E13025A46B4E5192A81B2 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CC7D9EAC942180D8D904502FB71ACA5A /* Products */,
+				4733B71187CCEB94928844095E83C1CD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		95AE26183B3D32FD777D47603EBEE619 /* Pods-Kilig_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8AA669C03F2744D4C84816F66E311FB3 /* Info.plist */,
+				678F3DFED3023967C31970690E195FD4 /* Pods-Kilig_Tests.modulemap */,
+				F32F2D2D343CE37F9F01F53DEA81F48D /* Pods-Kilig_Tests-acknowledgements.markdown */,
+				8E489B13B47CD0B4C27DF89DE023695B /* Pods-Kilig_Tests-acknowledgements.plist */,
+				32F08722991A9075E3E5812A79395299 /* Pods-Kilig_Tests-dummy.m */,
+				8B06E13D95111B93A45D754E8EEE3192 /* Pods-Kilig_Tests-frameworks.sh */,
+				54A1D5059E641192A80AEAFE85D5C1E3 /* Pods-Kilig_Tests-resources.sh */,
+				6747E99BCAB7D19E84A7971E0FA0FC02 /* Pods-Kilig_Tests-umbrella.h */,
+				ECCC98E6ECFA35045F08A149C6181A8C /* Pods-Kilig_Tests.debug.xcconfig */,
+				2F3D77CF2CA2DA0BA431EF37F7D6A063 /* Pods-Kilig_Tests.release.xcconfig */,
+			);
+			name = "Pods-Kilig_Tests";
+			path = "Target Support Files/Pods-Kilig_Tests";
+			sourceTree = "<group>";
+		};
+		9AA94C96214E75D2258AE675B520DC03 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C4136B5F97D2FDE1BA53A2211DED7C4A /* Kilig.podspec */,
+				721CCF9C795E01111739B209C6F523EF /* LICENSE */,
+				304C5422D74C5FA7276C531E66E5BCE1 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA3E0419CEBF413EE54169C0C6BA7C88 /* Kilig */ = {
+			isa = PBXGroup;
+			children = (
+				218AE6EF4537E179169EF8CFA05AF594 /* Kilig.h */,
+				54179344A70F0601B7590B4E5D623927 /* Chaining */,
+				9AA94C96214E75D2258AE675B520DC03 /* Pod */,
+				54964F11E57D31692C20DE5C88B06CC0 /* Support Files */,
+				231BCCC04820C6FEB34CE6DB82A130BC /* TableView */,
+				6730F562A088CE397E01C5BCDA0973E8 /* Tools */,
+			);
+			name = Kilig;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CC7D9EAC942180D8D904502FB71ACA5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				776D7530A245C3FDCF805B119FA57240 /* Kilig.framework */,
+				D3FBF34BA510C947EED13D3427C14E4E /* Pods_Kilig_Example.framework */,
+				148671B266D0F202E530E7B87D6AD759 /* Pods_Kilig_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		156309CF4CB88AC02A4B998AF0BD5A31 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E08D5C55D7F56C6AB72546D11920E6D8 /* Pods-Kilig_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6897B91FB102D3E5C9EEE247DA9E9AF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C08AD448D1E238D5C36B2ADBBE8987F7 /* Kilig-umbrella.h in Headers */,
+				29DA0B54F45D01A3E0A82B5757676101 /* Kilig.h in Headers */,
+				A5B27A15B084B8660207827D2D56EF3A /* KLGChaining.h in Headers */,
+				0968BD32F0E6A244CCE03C272C6BDA15 /* KLGMethodSwizzleTool.h in Headers */,
+				2A6BE5F6885E56654452528EE598C55E /* KLGTableView.h in Headers */,
+				D625768585965C03D52A493B6CD7047E /* KLGTableViewAction.h in Headers */,
+				C6062310CB7ECE0B1F8E1E4D06E5D12E /* KLGTableViewCellItem+Chaining.h in Headers */,
+				ECCEE0101E545FE53FF5ACFAD6A796E6 /* KLGTableViewCellItem.h in Headers */,
+				71B1563E45A443C8D9315A2CE7298B4F /* KLGTableViewHeaderFooterViewItem+Chaining.h in Headers */,
+				5CB86C732561BE986B033D0EADB4BA01 /* KLGTableViewHeaderFooterViewItem.h in Headers */,
+				17735239D70B550107AD585A149D5DF9 /* KLGTableViewItemProtocol.h in Headers */,
+				8E2D5FFCA446E6CBEF285F3C29D1ACD5 /* KLGTableViewModel.h in Headers */,
+				D0CE8A13190A073E4E12F9714B6DD4F7 /* KLGTableViewSectionItem.h in Headers */,
+				19ADB33CA0373D396ED95ECD9B09052F /* KLGTools.h in Headers */,
+				CA295FBC17E34DE6676E81AD09DF8E77 /* NSArray+KLG.h in Headers */,
+				93FB254EEEBCAC08BD3C17856F25050E /* UITableView+KLG.h in Headers */,
+				757787F6881A091BDF6CFD4A8749A264 /* UITableViewCell+KLG.h in Headers */,
+				C09C6E643C6C9682574152C78C679414 /* UITableViewHeaderFooterView+KLG.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D11363979D9BE25191FC22CC91C621EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BAEF90D6DCD54AE434524433D872653 /* Pods-Kilig_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		80F73D05D6FBA29A9F8463935685DAAC /* Pods-Kilig_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC446D64C99663CF3A5EE2CFF7781B5F /* Build configuration list for PBXNativeTarget "Pods-Kilig_Tests" */;
+			buildPhases = (
+				D11363979D9BE25191FC22CC91C621EB /* Headers */,
+				F7665D6F83CCB47DF5ACC82C041BE1DB /* Sources */,
+				F07507F87217B3A1F5D26D9D964D19C7 /* Frameworks */,
+				637CF6698BC904AB22FF7742D9944C0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA86E8249586E6E467A2801AB1FC0C4F /* PBXTargetDependency */,
+			);
+			name = "Pods-Kilig_Tests";
+			productName = "Pods-Kilig_Tests";
+			productReference = 148671B266D0F202E530E7B87D6AD759 /* Pods_Kilig_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E01C015A4EC5FE551B0AC172CC501253 /* Pods-Kilig_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF90356727B38B4EC3B29407E69AE276 /* Build configuration list for PBXNativeTarget "Pods-Kilig_Example" */;
+			buildPhases = (
+				156309CF4CB88AC02A4B998AF0BD5A31 /* Headers */,
+				5D7001F2AEAFDF440203AC457BCE321C /* Sources */,
+				45A987444066332E6B9612339457D1E1 /* Frameworks */,
+				EF306FDC906C9814046A12395197D0AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04A1810994E9D9273D0ABCECC70145B6 /* PBXTargetDependency */,
+			);
+			name = "Pods-Kilig_Example";
+			productName = "Pods-Kilig_Example";
+			productReference = D3FBF34BA510C947EED13D3427C14E4E /* Pods_Kilig_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F5D5CC469E28EABCAB074CA2256573EB /* Kilig */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 564B9906FE0DF541334B97BA06F0259A /* Build configuration list for PBXNativeTarget "Kilig" */;
+			buildPhases = (
+				A6897B91FB102D3E5C9EEE247DA9E9AF /* Headers */,
+				9B2FE017CF351CBB7E21CF583BF887C9 /* Sources */,
+				840A75BAC799C3627711C7DE8B97B3A2 /* Frameworks */,
+				E57AA709BC832619F46A521599997EF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kilig;
+			productName = Kilig;
+			productReference = 776D7530A245C3FDCF805B119FA57240 /* Kilig.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CC7D9EAC942180D8D904502FB71ACA5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5D5CC469E28EABCAB074CA2256573EB /* Kilig */,
+				E01C015A4EC5FE551B0AC172CC501253 /* Pods-Kilig_Example */,
+				80F73D05D6FBA29A9F8463935685DAAC /* Pods-Kilig_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		637CF6698BC904AB22FF7742D9944C0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E57AA709BC832619F46A521599997EF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF306FDC906C9814046A12395197D0AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D7001F2AEAFDF440203AC457BCE321C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2C1070B1DD76A468E07007A105F08D3 /* Pods-Kilig_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B2FE017CF351CBB7E21CF583BF887C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405E159D19C5CED95541533834F9F1DA /* Kilig-dummy.m in Sources */,
+				2BCEAE88C2CD33DB83996E9F47B830A8 /* KLGMethodSwizzleTool.m in Sources */,
+				27804B99A61F6A8621A065358DFE1E73 /* KLGTableViewAction.m in Sources */,
+				1F3D4AE2F1B3A6D99D1D44378F61A1A5 /* KLGTableViewCellItem+Chaining.m in Sources */,
+				59A690C1FBD53EE964E1156220662089 /* KLGTableViewCellItem.m in Sources */,
+				3A50304353FFB7113E20C63E6A63E851 /* KLGTableViewHeaderFooterViewItem+Chaining.m in Sources */,
+				F665CA35449759FAAFF2D7ACC5D964BF /* KLGTableViewHeaderFooterViewItem.m in Sources */,
+				8AAE498FFBA47ED01BEB4273190323CB /* KLGTableViewModel.m in Sources */,
+				23FC5DEEC9134CABFDE9F6549C8BF3BB /* KLGTableViewSectionItem.m in Sources */,
+				EEE52F51A9121D18BC2657C443E1B2A8 /* NSArray+KLG.m in Sources */,
+				B7616E9D427ED01EB16FD2906A2F090E /* UITableView+KLG.m in Sources */,
+				09C2125BEEC159C3F45160FD397AB8C2 /* UITableViewCell+KLG.m in Sources */,
+				E0253DE9B005F4E6F0C4C55B973D7052 /* UITableViewHeaderFooterView+KLG.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7665D6F83CCB47DF5ACC82C041BE1DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98FFDEEAC7C5348A958D0822B0E82EE3 /* Pods-Kilig_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04A1810994E9D9273D0ABCECC70145B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Kilig;
+			target = F5D5CC469E28EABCAB074CA2256573EB /* Kilig */;
+			targetProxy = 287F9AFED5F6EED0136EF543CD952BD0 /* PBXContainerItemProxy */;
+		};
+		FA86E8249586E6E467A2801AB1FC0C4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Kilig_Example";
+			target = E01C015A4EC5FE551B0AC172CC501253 /* Pods-Kilig_Example */;
+			targetProxy = F733A96AAA0758968C9633C893A25646 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09B3F0D366BBFE9752DA7903FDD2C02F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECCC98E6ECFA35045F08A149C6181A8C /* Pods-Kilig_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Kilig_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Kilig_Tests/Pods-Kilig_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1DF5306AFC53E7703752B9412916F9FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91A4AD260E5720D4CD3C246152C7E9ED /* Pods-Kilig_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Kilig_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Kilig_Example/Pods-Kilig_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2EAA5C4FBB3346B2DE681E6677A450E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F3D77CF2CA2DA0BA431EF37F7D6A063 /* Pods-Kilig_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Kilig_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Kilig_Tests/Pods-Kilig_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7129B61AB85458B0CDB17797CD16482B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0757D7145701E39CEAB18AD4A0FFFDE1 /* Kilig.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Kilig/Kilig-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kilig/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Kilig/Kilig.modulemap";
+				PRODUCT_MODULE_NAME = Kilig;
+				PRODUCT_NAME = Kilig;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B90BA6463B8243A3FC5C95C06DB2F2DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0757D7145701E39CEAB18AD4A0FFFDE1 /* Kilig.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Kilig/Kilig-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kilig/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Kilig/Kilig.modulemap";
+				PRODUCT_MODULE_NAME = Kilig;
+				PRODUCT_NAME = Kilig;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D7FB8312E6EEAE33C62516705013260D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE966C49B61E47B8D5D36FD3BCF7129D /* Pods-Kilig_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Kilig_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Kilig_Example/Pods-Kilig_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
+				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		564B9906FE0DF541334B97BA06F0259A /* Build configuration list for PBXNativeTarget "Kilig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B90BA6463B8243A3FC5C95C06DB2F2DC /* Debug */,
+				7129B61AB85458B0CDB17797CD16482B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC446D64C99663CF3A5EE2CFF7781B5F /* Build configuration list for PBXNativeTarget "Pods-Kilig_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09B3F0D366BBFE9752DA7903FDD2C02F /* Debug */,
+				2EAA5C4FBB3346B2DE681E6677A450E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF90356727B38B4EC3B29407E69AE276 /* Build configuration list for PBXNativeTarget "Pods-Kilig_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7FB8312E6EEAE33C62516705013260D /* Debug */,
+				1DF5306AFC53E7703752B9412916F9FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

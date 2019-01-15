@@ -1,0 +1,6 @@
+framework module Pods_Kilig_Tests {
+  umbrella header "Pods-Kilig_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

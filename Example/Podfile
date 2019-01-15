@@ -1,0 +1,14 @@
+source 'http://git.2dfire-inc.com/ios/cocoapods-spec.git'   # 私有库
+source 'https://github.com/CocoaPods/Specs.git'  # 官方库
+
+use_frameworks!
+
+target 'Kilig_Example' do
+  pod 'Kilig', :path => '../'
+
+  target 'Kilig_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

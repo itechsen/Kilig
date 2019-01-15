@@ -1,0 +1,24 @@
+PODS:
+  - Kilig (0.1.8):
+    - Kilig/Chaining (= 0.1.8)
+    - Kilig/TableView (= 0.1.8)
+    - Kilig/Tools (= 0.1.8)
+  - Kilig/Chaining (0.1.8):
+    - Kilig/TableView
+  - Kilig/TableView (0.1.8):
+    - Kilig/Tools
+  - Kilig/Tools (0.1.8)
+
+DEPENDENCIES:
+  - Kilig (from `../`)
+
+EXTERNAL SOURCES:
+  Kilig:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Kilig: 0765001be2fd267d6f496f548564b1e3faab999c
+
+PODFILE CHECKSUM: 50e649256e63c2e97789d7b91ce90a9472fa5245
+
+COCOAPODS: 1.5.3

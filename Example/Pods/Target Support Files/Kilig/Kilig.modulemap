@@ -1,0 +1,6 @@
+framework module Kilig {
+  umbrella header "Kilig-umbrella.h"
+
+  export *
+  module * { export * }
+}

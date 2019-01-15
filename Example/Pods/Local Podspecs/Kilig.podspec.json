@@ -1,0 +1,46 @@
+{
+  "name": "Kilig",
+  "version": "0.1.8",
+  "summary": "Kilig是一个轻量的简化UITableView数据展示的库,并且实现了model和cell的双向绑定.",
+  "description": "Kilig是一个轻量的简化UITableView数据展示的库,并且实现了model和cell的双向绑定.未来加入UICollectionView的封装",
+  "homepage": "http://git.2dfire-inc.com/2ye-iOS/Kilig",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "TechSen": "wugu@fanhaoyue.com"
+  },
+  "source": {
+    "git": "http://git.2dfire-inc.com/2ye-iOS/Kilig.git",
+    "tag": "0.1.8"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "Kilig/Classes/*.h",
+  "subspecs": [
+    {
+      "name": "Tools",
+      "source_files": "Kilig/Classes/Tools/*.{h,m}"
+    },
+    {
+      "name": "TableView",
+      "source_files": "Kilig/Classes/TableView/*.{h,m}",
+      "dependencies": {
+        "Kilig/Tools": [
+
+        ]
+      }
+    },
+    {
+      "name": "Chaining",
+      "source_files": "Kilig/Classes/Chaining/*.{h,m}",
+      "dependencies": {
+        "Kilig/TableView": [
+
+        ]
+      }
+    }
+  ]
+}
