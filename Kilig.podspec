@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'Kilig'
   s.version          = '0.2.0'
-  s.summary          = 'Kilig是一个轻量的简化UITableView数据驱动的库'
+  s.summary          = '一个轻量的简化UITableView数据驱动的库'
   s.description      = <<-DESC
 Kilig是一个轻量的简化UITableView数据驱动的库
                        DESC
